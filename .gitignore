@@ -2,6 +2,7 @@ obj/
 .deps/
 .svn/
 .git/
+proguard/
 
 ##
 ## Android
