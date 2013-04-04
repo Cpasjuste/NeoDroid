@@ -1,0 +1,743 @@
+com.littlegreatapps.neodroid.ActivityMain -> com.littlegreatapps.neodroid.ActivityMain:
+    com.littlegreatapps.neodroid.UtilityLibrary libs -> g
+    com.littlegreatapps.neodroid.Prefs mNeoPrefs -> h
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void runEmulator(fr.mydedibox.emufrontend.FileInfo) -> a
+com.littlegreatapps.neodroid.ActivityMain$1 -> com.littlegreatapps.neodroid.a:
+    com.littlegreatapps.neodroid.ActivityMain this$0 -> a
+    fr.mydedibox.utility.UtilityExtractRaw val$raw -> b
+    void run() -> run
+com.littlegreatapps.neodroid.Compatibility -> com.littlegreatapps.neodroid.b:
+    java.util.ArrayList list -> a
+com.littlegreatapps.neodroid.Prefs -> com.littlegreatapps.neodroid.c:
+    java.lang.String ROM_PATH -> a
+    java.lang.String DATA_PATH -> b
+    android.content.Context mCtx -> c
+    android.content.SharedPreferences mPrefs -> d
+    android.content.SharedPreferences$Editor mEditor -> e
+    java.lang.String getDataFilePath() -> a
+    boolean useAsm() -> b
+    java.lang.String getCountry() -> c
+    java.lang.String getSystem() -> d
+    boolean getSound() -> e
+    java.lang.String getSamplerate() -> f
+    boolean getInterpolation() -> g
+    boolean getRaster() -> h
+    boolean getShowfps() -> i
+    boolean getSleepidle() -> j
+    boolean getAutoframeskip() -> k
+    boolean getForcepc() -> l
+    java.lang.String getZ80Clock() -> m
+    java.lang.String get68kClock() -> n
+com.littlegreatapps.neodroid.UtilityLibrary -> com.littlegreatapps.neodroid.d:
+    android.content.pm.ApplicationInfo mApplication -> a
+    java.lang.String mLibSDLPath -> b
+    java.lang.String mLibMainASMPath -> c
+    java.lang.String mLibMainPath -> d
+    boolean isAvailable -> e
+    java.lang.String getLibMainASMPath() -> a
+    java.lang.String getLibMainPath() -> b
+    java.lang.String getLibSDLPath() -> c
+fr.mydedibox.emufrontend.ActivityPreferences -> fr.mydedibox.emufrontend.ActivityPreferences:
+    fr.mydedibox.utility.UtilityMessage mMessage -> a
+    fr.mydedibox.utility.UtilityFrontendPreferences mPreferences -> b
+    android.app.AlertDialog mInputDialog -> c
+    int mButtonNow -> d
+    boolean mButtonsEdit -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String) -> onSharedPreferenceChanged
+    boolean onPreferenceClick(android.preference.Preference) -> onPreferenceClick
+    boolean onKey(android.content.DialogInterface,int,android.view.KeyEvent) -> onKey
+    fr.mydedibox.utility.UtilityFrontendPreferences access$0(fr.mydedibox.emufrontend.ActivityPreferences) -> a
+    fr.mydedibox.utility.UtilityMessage access$1(fr.mydedibox.emufrontend.ActivityPreferences) -> b
+    int access$2(fr.mydedibox.emufrontend.ActivityPreferences) -> c
+    void access$3(fr.mydedibox.emufrontend.ActivityPreferences,int) -> a
+    android.app.AlertDialog access$4(fr.mydedibox.emufrontend.ActivityPreferences) -> d
+    void access$5$3603fd30(fr.mydedibox.emufrontend.ActivityPreferences) -> e
+fr.mydedibox.emufrontend.ActivityPreferences$1 -> fr.mydedibox.emufrontend.a:
+    fr.mydedibox.emufrontend.ActivityPreferences this$0 -> a
+    fr.mydedibox.utility.UtilityExtractRaw val$raw -> b
+    void run() -> run
+fr.mydedibox.emufrontend.ActivityPreferences$2 -> fr.mydedibox.emufrontend.b:
+    fr.mydedibox.emufrontend.ActivityPreferences this$0 -> a
+    boolean onKey(android.content.DialogInterface,int,android.view.KeyEvent) -> onKey
+fr.mydedibox.emufrontend.ActivitySoftwareInputViewEdit -> fr.mydedibox.emufrontend.ActivitySoftwareInputViewEdit:
+    fr.mydedibox.utility.UtilityFrontendPreferences mPreferences -> a
+    fr.mydedibox.emufrontend.input.SoftwareInputViewPreferences mInputViewPreferences -> b
+    fr.mydedibox.utility.UtilityMessage mMessage -> c
+    fr.mydedibox.emufrontend.input.SoftwareInputView mInputView -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void onResume() -> onResume
+    void onDestroy() -> onDestroy
+fr.mydedibox.emufrontend.CompatibilityList -> fr.mydedibox.emufrontend.c:
+    java.lang.String name -> a
+    java.lang.String parent -> b
+    java.lang.String filename -> c
+    java.lang.String year -> d
+    int status -> e
+    int buttons -> f
+    java.lang.String url -> g
+    java.util.ArrayList list -> h
+    fr.mydedibox.emufrontend.CompatibilityList getRom(java.lang.String) -> a
+fr.mydedibox.emufrontend.EmuFrontendActivity -> fr.mydedibox.emufrontend.EmuFrontendActivity:
+    fr.mydedibox.utility.UtilityFrontendPreferences mPrefs -> a
+    fr.mydedibox.emufrontend.input.SoftwareInputViewPreferences mInputViewPreferences -> g
+    fr.mydedibox.utility.UtilityMessage mMessage -> b
+    fr.mydedibox.emufrontend.CompatibilityList mCompatList -> c
+    fr.mydedibox.emufrontend.Filer mFiler -> h
+    fr.mydedibox.emufrontend.EmuFrontendActivity$FilesAdapter mFilesAdapter -> i
+    fr.mydedibox.emufrontend.EmuFrontendActivity$SearchRomsAdapter mSearchRomsAdapter -> j
+    android.widget.TextView mPath -> k
+    android.widget.ImageView mPreview -> l
+    android.content.res.ColorStateList mColorDefault -> m
+    boolean mShowClone -> n
+    android.widget.AdapterView$OnItemClickListener mFilesListener -> d
+    android.widget.AdapterView$OnItemLongClickListener mFilesLongClickListener -> e
+    android.widget.AdapterView$OnItemClickListener mSearchRomsListener -> f
+    void onCreate(android.os.Bundle) -> onCreate
+    void onResume() -> onResume
+    void onButtonClone(android.view.View) -> onButtonClone
+    void onPreviewClick(android.view.View) -> onPreviewClick
+    void onButtonSettings(android.view.View) -> onButtonSettings
+    void onButtonQuit(android.view.View) -> onButtonQuit
+    void onButtonMail(android.view.View) -> onButtonMail
+    void onButtonSearch(android.view.View) -> onButtonSearch
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    void runEmulator(fr.mydedibox.emufrontend.FileInfo) -> a
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void updateRomAdapter() -> a
+    void openDir(java.lang.String) -> a
+    fr.mydedibox.emufrontend.EmuFrontendActivity$FilesAdapter access$0(fr.mydedibox.emufrontend.EmuFrontendActivity) -> a
+    fr.mydedibox.emufrontend.input.SoftwareInputViewPreferences access$1(fr.mydedibox.emufrontend.EmuFrontendActivity) -> b
+    void access$2(fr.mydedibox.emufrontend.EmuFrontendActivity,fr.mydedibox.emufrontend.FileInfo) -> a
+    fr.mydedibox.emufrontend.EmuFrontendActivity$SearchRomsAdapter access$3(fr.mydedibox.emufrontend.EmuFrontendActivity) -> c
+    android.content.res.ColorStateList access$4(fr.mydedibox.emufrontend.EmuFrontendActivity) -> d
+    void access$5(fr.mydedibox.emufrontend.EmuFrontendActivity,android.content.res.ColorStateList) -> a
+    android.widget.ImageView access$6(fr.mydedibox.emufrontend.EmuFrontendActivity) -> e
+    android.widget.TextView access$7(fr.mydedibox.emufrontend.EmuFrontendActivity) -> f
+    fr.mydedibox.emufrontend.Filer access$8(fr.mydedibox.emufrontend.EmuFrontendActivity) -> g
+    boolean access$9(fr.mydedibox.emufrontend.EmuFrontendActivity) -> h
+fr.mydedibox.emufrontend.EmuFrontendActivity$1 -> fr.mydedibox.emufrontend.d:
+    fr.mydedibox.emufrontend.EmuFrontendActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+fr.mydedibox.emufrontend.EmuFrontendActivity$2 -> fr.mydedibox.emufrontend.e:
+    fr.mydedibox.emufrontend.EmuFrontendActivity this$0 -> a
+    boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long) -> onItemLongClick
+fr.mydedibox.emufrontend.EmuFrontendActivity$3 -> fr.mydedibox.emufrontend.f:
+    fr.mydedibox.emufrontend.EmuFrontendActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+fr.mydedibox.emufrontend.EmuFrontendActivity$4 -> fr.mydedibox.emufrontend.g:
+    fr.mydedibox.emufrontend.EmuFrontendActivity this$0 -> a
+    void run() -> run
+fr.mydedibox.emufrontend.EmuFrontendActivity$5 -> fr.mydedibox.emufrontend.h:
+    fr.mydedibox.emufrontend.EmuFrontendActivity this$0 -> a
+    java.lang.String val$pPath -> b
+    void run() -> run
+fr.mydedibox.emufrontend.EmuFrontendActivity$5$1 -> fr.mydedibox.emufrontend.i:
+    fr.mydedibox.emufrontend.EmuFrontendActivity$5 this$1 -> a
+    java.lang.String val$pPath -> b
+    void run() -> run
+fr.mydedibox.emufrontend.EmuFrontendActivity$5$1$1 -> fr.mydedibox.emufrontend.j:
+    fr.mydedibox.emufrontend.EmuFrontendActivity$5$1 this$2 -> a
+    java.util.ArrayList val$files -> b
+    int val$j -> c
+    void run() -> run
+fr.mydedibox.emufrontend.EmuFrontendActivity$6 -> fr.mydedibox.emufrontend.k:
+    fr.mydedibox.emufrontend.EmuFrontendActivity this$0 -> a
+    void run() -> run
+    fr.mydedibox.emufrontend.EmuFrontendActivity access$0(fr.mydedibox.emufrontend.EmuFrontendActivity$6) -> a
+fr.mydedibox.emufrontend.EmuFrontendActivity$6$1 -> fr.mydedibox.emufrontend.l:
+    fr.mydedibox.emufrontend.EmuFrontendActivity$6 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+fr.mydedibox.emufrontend.EmuFrontendActivity$6$2 -> fr.mydedibox.emufrontend.m:
+    fr.mydedibox.emufrontend.EmuFrontendActivity$6 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+fr.mydedibox.emufrontend.EmuFrontendActivity$7 -> fr.mydedibox.emufrontend.n:
+    fr.mydedibox.emufrontend.EmuFrontendActivity this$0 -> a
+    fr.mydedibox.emufrontend.FileInfo val$pFile -> b
+    void run() -> run
+fr.mydedibox.emufrontend.EmuFrontendActivity$7$1 -> fr.mydedibox.emufrontend.o:
+    fr.mydedibox.emufrontend.EmuFrontendActivity$7 this$1 -> a
+    fr.mydedibox.emufrontend.FileInfo val$pFile -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+    fr.mydedibox.emufrontend.EmuFrontendActivity$7 access$0(fr.mydedibox.emufrontend.EmuFrontendActivity$7$1) -> a
+fr.mydedibox.emufrontend.EmuFrontendActivity$7$1$1 -> fr.mydedibox.emufrontend.p:
+    fr.mydedibox.emufrontend.EmuFrontendActivity$7$1 this$2 -> a
+    fr.mydedibox.emufrontend.FileInfo val$pFile -> b
+    void run() -> run
+fr.mydedibox.emufrontend.EmuFrontendActivity$7$2 -> fr.mydedibox.emufrontend.q:
+    fr.mydedibox.emufrontend.EmuFrontendActivity$7 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+fr.mydedibox.emufrontend.EmuFrontendActivity$FilesAdapter -> fr.mydedibox.emufrontend.r:
+    fr.mydedibox.emufrontend.EmuFrontendActivity this$0 -> a
+    void add(fr.mydedibox.emufrontend.FileInfo) -> a
+    fr.mydedibox.emufrontend.FileInfo getItem(int) -> a
+    void remove(fr.mydedibox.emufrontend.FileInfo) -> b
+    void insert(fr.mydedibox.emufrontend.FileInfo,int) -> a
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.lang.Object getItem(int) -> getItem
+    void add(java.lang.Object) -> add
+    void insert(java.lang.Object,int) -> insert
+    void remove(java.lang.Object) -> remove
+    fr.mydedibox.emufrontend.EmuFrontendActivity access$4(fr.mydedibox.emufrontend.EmuFrontendActivity$FilesAdapter) -> a
+fr.mydedibox.emufrontend.EmuFrontendActivity$FilesAdapter$1 -> fr.mydedibox.emufrontend.s:
+    fr.mydedibox.emufrontend.EmuFrontendActivity$FilesAdapter this$1 -> a
+    fr.mydedibox.emufrontend.FileInfo val$file -> b
+    void onClick(android.view.View) -> onClick
+fr.mydedibox.emufrontend.EmuFrontendActivity$FilesAdapter$2 -> fr.mydedibox.emufrontend.t:
+    fr.mydedibox.emufrontend.EmuFrontendActivity$FilesAdapter this$1 -> a
+    android.graphics.Bitmap val$bitmap -> b
+    void onClick(android.view.View) -> onClick
+fr.mydedibox.emufrontend.EmuFrontendActivity$SearchRomsAdapter -> fr.mydedibox.emufrontend.u:
+    fr.mydedibox.emufrontend.EmuFrontendActivity this$0 -> a
+    void add(fr.mydedibox.emufrontend.CompatibilityList) -> a
+    fr.mydedibox.emufrontend.CompatibilityList getItem(int) -> a
+    void remove(fr.mydedibox.emufrontend.CompatibilityList) -> b
+    void insert(fr.mydedibox.emufrontend.CompatibilityList,int) -> a
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.lang.Object getItem(int) -> getItem
+    void add(java.lang.Object) -> add
+    void insert(java.lang.Object,int) -> insert
+    void remove(java.lang.Object) -> remove
+    fr.mydedibox.emufrontend.EmuFrontendActivity access$4(fr.mydedibox.emufrontend.EmuFrontendActivity$SearchRomsAdapter) -> a
+fr.mydedibox.emufrontend.EmuFrontendActivity$SearchRomsAdapter$1 -> fr.mydedibox.emufrontend.v:
+    fr.mydedibox.emufrontend.EmuFrontendActivity$SearchRomsAdapter this$1 -> a
+    int val$id -> b
+    void onClick(android.view.View) -> onClick
+fr.mydedibox.emufrontend.EmuFrontendActivity$SearchRomsAdapter$2 -> fr.mydedibox.emufrontend.w:
+    fr.mydedibox.emufrontend.EmuFrontendActivity$SearchRomsAdapter this$1 -> a
+    android.graphics.Bitmap val$bitmap -> b
+    void onClick(android.view.View) -> onClick
+fr.mydedibox.emufrontend.FileInfo -> fr.mydedibox.emufrontend.x:
+    java.io.File file -> a
+    java.lang.String name -> b
+    java.lang.String nameshort -> c
+    java.lang.String path -> d
+    java.lang.String parent -> e
+    long size -> f
+    int count -> g
+    boolean isDirectory -> h
+    boolean isFile -> i
+    boolean isZIP -> j
+    boolean isRom -> k
+    java.lang.String rom_year -> l
+    java.lang.String rom_name_parent -> m
+    java.lang.String rom_name -> n
+    int rom_resid -> o
+    int rom_status -> p
+    java.lang.String[] ZIP_EXT -> q
+    boolean delete() -> a
+    boolean _isZIP(java.lang.String,boolean) -> a
+    boolean delete(java.io.File) -> a
+fr.mydedibox.emufrontend.Filer -> fr.mydedibox.emufrontend.y:
+    fr.mydedibox.emufrontend.CompatibilityList mCompatList -> a
+    android.content.Context mCtx -> b
+    java.util.ArrayList getFiles(java.lang.String) -> a
+fr.mydedibox.emufrontend.Filer$1 -> fr.mydedibox.emufrontend.z:
+    fr.mydedibox.emufrontend.Filer this$0 -> a
+    boolean accept(java.io.File) -> accept
+fr.mydedibox.emufrontend.Filer$DirAlphaComparator -> fr.mydedibox.emufrontend.aa:
+    fr.mydedibox.emufrontend.Filer this$0 -> a
+    int compare(java.lang.Object,java.lang.Object) -> compare
+fr.mydedibox.emufrontend.R -> fr.mydedibox.emufrontend.ab:
+fr.mydedibox.emufrontend.R$drawable -> fr.mydedibox.emufrontend.ac:
+    int noclone -> a
+    int settings -> b
+    int search -> c
+    int quitblack -> d
+    int effect_twisty -> e
+    int clone -> f
+    int effects -> g
+    int effect_crt1_10 -> h
+    int ratio -> i
+    int effect_scanline_25 -> j
+    int effect_crt2_25 -> k
+    int state -> l
+    int custom_bg_2 -> m
+    int brightness -> n
+    int effect_crt1_25 -> o
+    int menubuttonbg -> p
+    int effect_scanline_50 -> q
+    int icon -> r
+    int effect_crt2_10 -> s
+    int effect_scanline_75 -> t
+    int folder -> u
+    int effect_scanline_100 -> v
+fr.mydedibox.emufrontend.R$id -> fr.mydedibox.emufrontend.ad:
+    int file_info -> a
+    int buttoncustom1 -> b
+    int seek_bar -> c
+    int file_name -> d
+    int filer_path -> e
+    int current_value -> f
+    int button1 -> g
+    int button6 -> h
+    int button4 -> i
+    int button5 -> j
+    int button2 -> k
+    int button3 -> l
+    int buttonstart -> m
+    int preview -> n
+    int buttondpad -> o
+    int file_icon -> p
+    int max_value -> q
+    int buttoncoins -> r
+    int min_value -> s
+fr.mydedibox.emufrontend.R$layout -> fr.mydedibox.emufrontend.ae:
+    int gamepadview3buttons -> a
+    int gamepadview2buttons -> b
+    int statelist -> c
+    int filerview -> d
+    int filerlist -> e
+    int gamepadview4buttons -> f
+    int gamepadview6buttons -> g
+    int dialog_slider -> h
+fr.mydedibox.emufrontend.R$xml -> fr.mydedibox.emufrontend.af:
+    int cps2prefs -> a
+    int neoprefs -> b
+    int preferences -> c
+fr.mydedibox.emufrontend.SDLActivity -> fr.mydedibox.emufrontend.SDLActivity:
+    int mScreenHolderSizeX -> a
+    int mScreenHolderSizeY -> b
+    int mScreenEmuSizeX -> c
+    int mScreenEmuSizeY -> d
+    boolean mCPS2 -> e
+    java.lang.String[] mArgs -> f
+    fr.mydedibox.emufrontend.SDLActivity mSingleton -> n
+    fr.mydedibox.emufrontend.SDLSurface mSurface -> o
+    java.lang.Thread mAudioThread -> p
+    android.media.AudioTrack mAudioTrack -> q
+    int mAudioCps2Buffer -> r
+    fr.mydedibox.utility.UtilityMessage mMessage -> s
+    fr.mydedibox.utility.UtilityFrontendPreferences mPrefs -> g
+    android.widget.RelativeLayout mPauseLayout -> h
+    fr.mydedibox.emufrontend.effects.Effect mEffectView -> i
+    fr.mydedibox.emufrontend.effects.EffectList mEffectList -> j
+    android.widget.SeekBar mBrightnessSeekBar -> t
+    android.widget.RelativeLayout mainView -> u
+    fr.mydedibox.emufrontend.StateAdapter mStateAdapter -> v
+    android.widget.ListView mStateView -> w
+    fr.mydedibox.emufrontend.input.SoftwareInputView mInputView -> x
+    fr.mydedibox.emufrontend.input.SoftwareInputViewPreferences mInputViewPreferences -> y
+    android.widget.AdapterView$OnItemClickListener mStatesListener -> k
+    int COMMAND_CHANGE_TITLE -> l
+    android.os.Handler commandHandler -> m
+    int progress -> z
+    android.os.Handler mHandler -> A
+    java.lang.Runnable updateProgressBar -> B
+    java.lang.Object buf -> C
+    void onCreate(android.os.Bundle) -> onCreate
+    void applyRatioAndEffect() -> a
+    void updateStatesList() -> b
+    void dialogConfirmExit() -> c
+    void setPadData$255f656(long) -> a
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean handlePauseMenu(boolean) -> a
+    void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    void onPause() -> onPause
+    void onResume() -> onResume
+    void onDestroy() -> onDestroy
+    void resume() -> d
+    void stop() -> e
+    void setErrorMessage(java.lang.String) -> a
+    void showProgressBar(java.lang.String,int) -> a
+    void hideProgressBar() -> f
+    void setProgressBar(int) -> a
+    boolean createGLContext$255f299(int) -> b
+    void flipBuffers() -> g
+    void setActivityTitle(java.lang.String) -> b
+    android.content.Context getContext() -> h
+    java.lang.Object audioInit(int,boolean,boolean,int) -> a
+    void audioStartThread() -> i
+    void audioWriteShortBuffer(short[]) -> a
+    void audioWriteByteBuffer(byte[]) -> a
+    void audioQuit() -> j
+    fr.mydedibox.emufrontend.StateAdapter access$0(fr.mydedibox.emufrontend.SDLActivity) -> a
+    fr.mydedibox.utility.UtilityMessage access$1() -> k
+    int access$2() -> l
+    android.os.Handler access$3() -> m
+    java.lang.Runnable access$4() -> n
+    fr.mydedibox.emufrontend.SDLActivity access$5() -> o
+    fr.mydedibox.emufrontend.input.SoftwareInputView access$6(fr.mydedibox.emufrontend.SDLActivity) -> b
+    fr.mydedibox.emufrontend.input.SoftwareInputViewPreferences access$7(fr.mydedibox.emufrontend.SDLActivity) -> c
+    android.widget.SeekBar access$8(fr.mydedibox.emufrontend.SDLActivity) -> d
+    android.widget.ListView access$9(fr.mydedibox.emufrontend.SDLActivity) -> e
+    android.media.AudioTrack access$10() -> p
+fr.mydedibox.emufrontend.SDLActivity$1 -> fr.mydedibox.emufrontend.ag:
+    fr.mydedibox.emufrontend.SDLActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+fr.mydedibox.emufrontend.SDLActivity$10 -> fr.mydedibox.emufrontend.ah:
+    fr.mydedibox.emufrontend.SDLActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+fr.mydedibox.emufrontend.SDLActivity$11 -> fr.mydedibox.emufrontend.ai:
+    fr.mydedibox.emufrontend.SDLActivity this$0 -> a
+    void run() -> run
+fr.mydedibox.emufrontend.SDLActivity$12 -> fr.mydedibox.emufrontend.aj:
+    fr.mydedibox.emufrontend.SDLActivity this$0 -> a
+    void run() -> run
+fr.mydedibox.emufrontend.SDLActivity$12$1 -> fr.mydedibox.emufrontend.ak:
+    fr.mydedibox.emufrontend.SDLActivity$12 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+fr.mydedibox.emufrontend.SDLActivity$12$2 -> fr.mydedibox.emufrontend.al:
+    fr.mydedibox.emufrontend.SDLActivity$12 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+fr.mydedibox.emufrontend.SDLActivity$13 -> fr.mydedibox.emufrontend.am:
+    void run() -> run
+fr.mydedibox.emufrontend.SDLActivity$2 -> fr.mydedibox.emufrontend.an:
+    fr.mydedibox.emufrontend.SDLActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+fr.mydedibox.emufrontend.SDLActivity$3 -> fr.mydedibox.emufrontend.ao:
+    void run() -> run
+fr.mydedibox.emufrontend.SDLActivity$4 -> fr.mydedibox.emufrontend.ap:
+    fr.mydedibox.emufrontend.SDLActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+fr.mydedibox.emufrontend.SDLActivity$5 -> fr.mydedibox.emufrontend.aq:
+    fr.mydedibox.emufrontend.SDLActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+    fr.mydedibox.emufrontend.SDLActivity access$0(fr.mydedibox.emufrontend.SDLActivity$5) -> a
+fr.mydedibox.emufrontend.SDLActivity$5$1 -> fr.mydedibox.emufrontend.ar:
+    fr.mydedibox.emufrontend.SDLActivity$5 this$1 -> a
+    java.lang.CharSequence[] val$charseq -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
+fr.mydedibox.emufrontend.SDLActivity$6 -> fr.mydedibox.emufrontend.as:
+    fr.mydedibox.emufrontend.SDLActivity this$0 -> a
+    void onProgressChanged(android.widget.SeekBar,int,boolean) -> onProgressChanged
+    void onStartTrackingTouch(android.widget.SeekBar) -> onStartTrackingTouch
+    void onStopTrackingTouch(android.widget.SeekBar) -> onStopTrackingTouch
+fr.mydedibox.emufrontend.SDLActivity$7 -> fr.mydedibox.emufrontend.at:
+    fr.mydedibox.emufrontend.SDLActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+fr.mydedibox.emufrontend.SDLActivity$8 -> fr.mydedibox.emufrontend.au:
+    fr.mydedibox.emufrontend.SDLActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+fr.mydedibox.emufrontend.SDLActivity$9 -> fr.mydedibox.emufrontend.av:
+    fr.mydedibox.emufrontend.SDLActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+fr.mydedibox.emufrontend.SDLMain -> fr.mydedibox.emufrontend.aw:
+    android.content.Context mCtx -> a
+    void run() -> run
+fr.mydedibox.emufrontend.SDLSurface -> fr.mydedibox.emufrontend.ax:
+    android.content.Context mCtx -> b
+    fr.mydedibox.emufrontend.SDLActivity mActivity -> c
+    java.lang.Thread mSDLThread -> a
+    javax.microedition.khronos.egl.EGLContext mEGLContext -> d
+    javax.microedition.khronos.egl.EGLSurface mEGLSurface -> e
+    javax.microedition.khronos.egl.EGLDisplay mEGLDisplay -> f
+    fr.mydedibox.emufrontend.input.HardwareInput mHardwareInput -> g
+    boolean onKey(android.view.View,int,android.view.KeyEvent) -> onKey
+    void surfaceCreated(android.view.SurfaceHolder) -> surfaceCreated
+    void surfaceDestroyed(android.view.SurfaceHolder) -> surfaceDestroyed
+    void surfaceChanged(android.view.SurfaceHolder,int,int,int) -> surfaceChanged
+    void onDraw(android.graphics.Canvas) -> onDraw
+    boolean initEGL$255f299(int) -> a
+    void flipEGL() -> a
+fr.mydedibox.emufrontend.StateAdapter -> fr.mydedibox.emufrontend.ay:
+    android.content.Context mCtx -> a
+    void add(fr.mydedibox.emufrontend.StateInfo) -> a
+    fr.mydedibox.emufrontend.StateInfo getItem(int) -> a
+    void remove(fr.mydedibox.emufrontend.StateInfo) -> b
+    void insert(fr.mydedibox.emufrontend.StateInfo,int) -> a
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.lang.Object getItem(int) -> getItem
+    void add(java.lang.Object) -> add
+    void insert(java.lang.Object,int) -> insert
+    void remove(java.lang.Object) -> remove
+fr.mydedibox.emufrontend.StateInfo -> fr.mydedibox.emufrontend.az:
+    int id -> a
+    java.lang.String path -> b
+    java.lang.String date -> c
+    android.graphics.drawable.Drawable drawable -> d
+    boolean available -> e
+fr.mydedibox.emufrontend.StateList -> fr.mydedibox.emufrontend.ba:
+    java.util.ArrayList states -> a
+    java.util.ArrayList getStates() -> a
+fr.mydedibox.emufrontend.StateList$1 -> fr.mydedibox.emufrontend.bb:
+    fr.mydedibox.emufrontend.StateList this$0 -> a
+    java.lang.String val$pRomName -> b
+    boolean accept(java.io.File) -> accept
+fr.mydedibox.emufrontend.effects.Effect -> fr.mydedibox.emufrontend.effects.Effect:
+    android.content.Context mCtx -> a
+    fr.mydedibox.utility.UtilityFrontendPreferences mPrefs -> b
+    void init() -> a
+    void applyEffect(android.widget.RelativeLayout$LayoutParams,fr.mydedibox.emufrontend.effects.EffectList) -> a
+fr.mydedibox.emufrontend.effects.EffectList -> fr.mydedibox.emufrontend.effects.a:
+    int effect_scanlines100_drawable -> a
+    int effect_scanlines75_drawable -> b
+    int effect_scanlines50_drawable -> c
+    int effect_scanlines25_drawable -> d
+    int effect_crt1_25_drawable -> e
+    int effect_crt1_10_drawable -> f
+    int effect_crt2_25_drawable -> g
+    int effect_crt2_10_drawable -> h
+    int effect_twisty_drawable -> i
+    java.util.ArrayList list -> j
+    java.lang.String name -> k
+    int id -> l
+    java.lang.CharSequence[] getCharSequenceList() -> a
+    fr.mydedibox.emufrontend.effects.EffectList getByName(java.lang.String) -> a
+    java.lang.String getName() -> b
+    int getID() -> c
+fr.mydedibox.emufrontend.input.HardwareInput -> fr.mydedibox.emufrontend.a.a:
+    fr.mydedibox.emufrontend.SDLActivity mActivity -> b
+    int pad_data -> c
+    int pad_up -> d
+    int pad_down -> e
+    int pad_left -> f
+    int pad_right -> g
+    int pad_1 -> h
+    int pad_2 -> i
+    int pad_3 -> j
+    int pad_4 -> k
+    int pad_5 -> l
+    int pad_6 -> m
+    int pad_start -> n
+    int pad_coins -> o
+    int pad_menu -> p
+    int pad_switch -> q
+    int pad_custom_1 -> r
+    int pad_exit -> s
+    java.util.List ButtonKeys -> a
+    boolean onKey$33ade166(int,android.view.KeyEvent) -> a
+fr.mydedibox.emufrontend.input.SoftwareButtonInfo -> fr.mydedibox.emufrontend.a.b:
+    android.widget.ImageView image -> a
+    android.graphics.Rect rect -> b
+    int value -> c
+    int id -> d
+    int pointer -> e
+    void setScale(float) -> a
+    float getScale() -> a
+fr.mydedibox.emufrontend.input.SoftwareButtonList -> fr.mydedibox.emufrontend.a.c:
+    java.util.ArrayList mButtons -> a
+    fr.mydedibox.emufrontend.input.SoftwareInputViewPreferences mPreferences -> b
+    android.content.Context mCtx -> c
+    int mButtonsCount -> d
+    void setRects() -> a
+    fr.mydedibox.emufrontend.input.SoftwareButtonInfo getButtonInfo$49f29496() -> b
+    void setCenter(int,int,int) -> a
+    void savePosition(int) -> a
+    java.util.ArrayList getButtons() -> c
+    void setAlpha(int) -> b
+    void setScale(float) -> a
+fr.mydedibox.emufrontend.input.SoftwareInputView -> fr.mydedibox.emufrontend.a.d:
+    boolean mActive -> a
+    boolean mEditMode -> b
+    int mButtonCount -> c
+    android.content.Context mCtx -> d
+    fr.mydedibox.emufrontend.input.SoftwareButtonList mButtons -> e
+    fr.mydedibox.emufrontend.input.SoftwareStick mStick -> f
+    fr.mydedibox.emufrontend.input.SoftwareInputViewPreferences mPreferences -> g
+    android.widget.Button mScaleButtonUp -> h
+    android.widget.Button mScaleButtonDown -> i
+    android.os.Vibrator mVibrator -> j
+    int mActionPrev -> k
+    int mInputData -> l
+    void onLayout(boolean,int,int,int,int) -> onLayout
+    void setSwitchButtonsVisibility$13462e() -> a
+    void setActive(boolean) -> a
+    void setAlpha(int) -> a
+    void init() -> b
+    void handleStick(int,int,int) -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+    android.widget.Button access$0(fr.mydedibox.emufrontend.input.SoftwareInputView) -> a
+    fr.mydedibox.emufrontend.input.SoftwareStick access$1(fr.mydedibox.emufrontend.input.SoftwareInputView) -> b
+    fr.mydedibox.emufrontend.input.SoftwareButtonList access$2(fr.mydedibox.emufrontend.input.SoftwareInputView) -> c
+    android.widget.Button access$3(fr.mydedibox.emufrontend.input.SoftwareInputView) -> d
+    fr.mydedibox.emufrontend.input.SoftwareInputViewPreferences access$4(fr.mydedibox.emufrontend.input.SoftwareInputView) -> e
+    int access$5(fr.mydedibox.emufrontend.input.SoftwareInputView) -> f
+    void access$6(fr.mydedibox.emufrontend.input.SoftwareInputView) -> g
+fr.mydedibox.emufrontend.input.SoftwareInputView$1 -> fr.mydedibox.emufrontend.a.e:
+    fr.mydedibox.emufrontend.input.SoftwareInputView this$0 -> a
+    void onClick(android.view.View) -> onClick
+fr.mydedibox.emufrontend.input.SoftwareInputView$2 -> fr.mydedibox.emufrontend.a.f:
+    fr.mydedibox.emufrontend.input.SoftwareInputView this$0 -> a
+    void onClick(android.view.View) -> onClick
+fr.mydedibox.emufrontend.input.SoftwareInputView$3 -> fr.mydedibox.emufrontend.a.g:
+    fr.mydedibox.emufrontend.input.SoftwareInputView this$0 -> a
+    void onClick(android.view.View) -> onClick
+fr.mydedibox.emufrontend.input.SoftwareInputViewPreferences -> fr.mydedibox.emufrontend.a.h:
+    android.content.Context mCtx -> a
+    android.content.SharedPreferences mPrefs -> b
+    android.content.SharedPreferences$Editor mEditor -> c
+    void reset(int) -> a
+    void setButtonsScaleFactor(int,float) -> a
+    float getButtonsScaleFactor(int) -> b
+    void setStickScaleFactor(float) -> a
+    float getStickScaleFactor() -> a
+    void setStickCenter(int,int) -> a
+    android.graphics.Point getStickCenter() -> b
+    void setButtonCenter(int,int,int,int) -> a
+    android.graphics.Point getButtonCenter(int,int) -> b
+    void setButtonsCount(int) -> c
+    int getButtonsCount() -> c
+    void setOSDAlpha(int) -> d
+    int getOSDAlpha() -> d
+    boolean useVibration() -> e
+fr.mydedibox.emufrontend.input.SoftwareStick -> fr.mydedibox.emufrontend.a.i:
+    android.view.View mView -> f
+    fr.mydedibox.emufrontend.input.SoftwareInputViewPreferences mPreferences -> g
+    android.widget.ImageView mStick -> a
+    android.graphics.Rect mStickRect -> b
+    android.graphics.Rect[] mStickRectDirection -> c
+    android.graphics.Rect[] mScreenRectDirection -> d
+    int mStickPointerID -> e
+    void setRects() -> a
+    void setScale(float) -> a
+    void setCenter(int,int) -> a
+    void savePosition() -> b
+fr.mydedibox.utility.SeekBarPreference -> fr.mydedibox.utility.SeekBarPreference:
+    int mDefaultValue -> a
+    int mMaxValue -> b
+    int mMinValue -> c
+    int mCurrentValue -> d
+    android.widget.SeekBar mSeekBar -> e
+    android.widget.TextView mValueText -> f
+    android.view.View onCreateDialogView() -> onCreateDialogView
+    void onDialogClosed(boolean) -> onDialogClosed
+    java.lang.CharSequence getSummary() -> getSummary
+    void onProgressChanged(android.widget.SeekBar,int,boolean) -> onProgressChanged
+    void onStartTrackingTouch(android.widget.SeekBar) -> onStartTrackingTouch
+    void onStopTrackingTouch(android.widget.SeekBar) -> onStopTrackingTouch
+fr.mydedibox.utility.Utility -> fr.mydedibox.utility.a:
+    java.lang.String TAG -> a
+    void setTAG(java.lang.String) -> a
+    java.lang.String getTAG() -> a
+    void log(java.lang.String) -> b
+    void loge(java.lang.String) -> c
+    java.lang.String dumpPrefs(android.content.Context) -> a
+    void sendLogsMail(android.app.Activity) -> a
+    java.lang.String formatFileSize(long) -> a
+    int parseInt(java.lang.String) -> d
+fr.mydedibox.utility.UtilityDecompressZip -> fr.mydedibox.utility.b:
+    java.lang.String _zipFile -> a
+    java.lang.String _location -> b
+    void unzip() -> a
+    void _dirChecker(java.lang.String) -> a
+fr.mydedibox.utility.UtilityExtractRaw -> fr.mydedibox.utility.c:
+    android.content.Context mCtx -> b
+    java.util.ArrayList list -> a
+    void add(java.lang.String,java.lang.String) -> a
+    void extract() -> a
+fr.mydedibox.utility.UtilityExtractRaw$RawResource -> fr.mydedibox.utility.d:
+    java.lang.String source -> a
+    java.lang.String destination -> b
+    fr.mydedibox.utility.UtilityExtractRaw this$0 -> c
+fr.mydedibox.utility.UtilityFrontendPreferences -> fr.mydedibox.utility.e:
+    java.lang.String ROM_PATH -> a
+    java.lang.String DATA_PATH -> b
+    java.lang.String PREVIEW_PATH -> c
+    java.lang.String STATE_PATH -> d
+    android.content.Context mCtx -> e
+    android.content.SharedPreferences mPrefs -> f
+    android.content.SharedPreferences$Editor mEditor -> g
+    android.content.SharedPreferences getSharedPreferences() -> a
+    boolean updatePrefs() -> b
+    void setRomsPath(java.lang.String) -> a
+    java.lang.String getRomsPath() -> c
+    java.lang.String getCachePath() -> d
+    java.lang.String getDataPath() -> e
+    java.lang.String getRom() -> f
+    void setRom(java.lang.String) -> b
+    int getScreenSize() -> g
+    void setScreenSize(int) -> a
+    java.lang.String getEffectFast() -> h
+    void setEffectFast(java.lang.String) -> c
+    boolean useHardwareButtons() -> i
+    void setPad(java.lang.String,int) -> a
+    int getPadUp() -> j
+    int getPadDown() -> k
+    int getPadLeft() -> l
+    int getPadRight() -> m
+    int getPad1() -> n
+    int getPad2() -> o
+    int getPad3() -> p
+    int getPad4() -> q
+    int getPad5() -> r
+    int getPad6() -> s
+    int getPadCoins() -> t
+    int getPadStart() -> u
+    int getPadMenu() -> v
+    int getPadSwitch() -> w
+    int getPadCustom1() -> x
+    int getPadExit() -> y
+fr.mydedibox.utility.UtilityLibs -> fr.mydedibox.utility.f:
+    java.util.ArrayList list -> a
+    void add(java.lang.String) -> a
+    void load() -> a
+fr.mydedibox.utility.UtilityMessage -> fr.mydedibox.utility.g:
+    android.app.ProgressDialog mWaitDialog -> a
+    android.app.Activity mActivity -> c
+    java.lang.String message -> d
+    int progress_max -> e
+    int progress_now -> f
+    boolean indeterminate -> g
+    boolean isShowing -> b
+    void updateDialog() -> b
+    void showDialogProgress(java.lang.String,int) -> a
+    void setDialogProgress(int) -> a
+    void showDialogWait(java.lang.String) -> a
+    void hideDialog() -> a
+    void showToastMessageShort(java.lang.String) -> b
+    void showMessageInfo(java.lang.String) -> c
+    void showMessageError(java.lang.String) -> d
+    boolean access$0(fr.mydedibox.utility.UtilityMessage) -> a
+    int access$1(fr.mydedibox.utility.UtilityMessage) -> b
+    int access$2(fr.mydedibox.utility.UtilityMessage) -> c
+    java.lang.String access$3(fr.mydedibox.utility.UtilityMessage) -> d
+    void access$4(fr.mydedibox.utility.UtilityMessage,java.lang.String) -> a
+    android.app.Activity access$5(fr.mydedibox.utility.UtilityMessage) -> e
+fr.mydedibox.utility.UtilityMessage$1 -> fr.mydedibox.utility.h:
+    fr.mydedibox.utility.UtilityMessage this$0 -> a
+    void run() -> run
+fr.mydedibox.utility.UtilityMessage$2 -> fr.mydedibox.utility.i:
+    fr.mydedibox.utility.UtilityMessage this$0 -> a
+    java.lang.String val$pMessage -> b
+    void run() -> run
+fr.mydedibox.utility.UtilityMessage$2$1 -> fr.mydedibox.utility.j:
+    fr.mydedibox.utility.UtilityMessage$2 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+fr.mydedibox.utility.UtilityMessage$3 -> fr.mydedibox.utility.k:
+    fr.mydedibox.utility.UtilityMessage this$0 -> a
+    java.lang.String val$pMessage -> b
+    void run() -> run
+fr.mydedibox.utility.UtilityMessage$3$1 -> fr.mydedibox.utility.l:
+    fr.mydedibox.utility.UtilityMessage$3 this$1 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+fr.mydedibox.utility.UtilitySDL -> fr.mydedibox.utility.UtilitySDL:
+    java.lang.String datapath -> datapath
+    java.lang.String rompath -> rompath
+    java.lang.String cachepath -> cachepath
+    int ispaused() -> ispaused
+    void pauseemu() -> pauseemu
+    void resumeemu() -> resumeemu
+    int getslotnum() -> getslotnum
+    void statesave(int) -> statesave
+    void stateload(int) -> stateload
+    void emustop() -> emustop
+    void setPadData(int,long) -> setPadData
+    void setPadSwitch() -> setPadSwitch
+    void nativeInitWithArgs(java.lang.String[]) -> nativeInitWithArgs
+    void onNativeResize(int,int,int) -> onNativeResize
+    void nativeRunAudioThread() -> nativeRunAudioThread
+    void nativePause() -> nativePause
+    void nativeResume() -> nativeResume
+    java.lang.String getDataPath() -> getDataPath
+    java.lang.String getRomsPath() -> getRomsPath
+    java.lang.String getCachePath() -> getCachePath
+    boolean createGLContext(int,int) -> createGLContext
+    void flipBuffers() -> flipBuffers
+    void setActivityTitle(java.lang.String) -> setActivityTitle
+    android.content.Context getContext() -> getContext
+    java.lang.Object audioInit(int,boolean,boolean,int) -> audioInit
+    void audioStartThread() -> audioStartThread
+    void audioWriteShortBuffer(short[]) -> audioWriteShortBuffer
+    void audioWriteByteBuffer(byte[]) -> audioWriteByteBuffer
+    void audioQuit() -> audioQuit
+    void setErrorMessage(java.lang.String) -> setErrorMessage
+    void showProgressBar(java.lang.String,int) -> showProgressBar
+    void hideProgressBar() -> hideProgressBar
+    void setProgressBar(int) -> setProgressBar

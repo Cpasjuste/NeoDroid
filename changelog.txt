@@ -1,0 +1,62 @@
+1.9
+==
+- Fix library download problem on froyo devices
+
+1.8
+===
+- Minor search library fix
+
+1.7
+===
+- Added save/load state support (with a little bug: it seems that sometime the music is not properly restored in ram)
+- Added a compatibility list with roms links search (search button)
+- A sound problem should be fixed, the emulator "should" not hang anymore on the NeoGeo logo when loading multiples roms
+- No restart on exit emulation anymore, exiting the emulation will bring back to the rom selection list
+- Should again fix a problem with the screen aspect ratio (ex. Garou Mark of the Wolves)
+- Added progress bar on roms loading
+- Problem when using "home" system spotted : be sure to have the bios file "aes-bios.bin" in your neogeo.zip file (still not working very great)
+- Added z80 and 68k overlock in preferences (improve neogeo framerate on games like metal slug)
+- Fix child roms not working (metal slug 4 plus, Puzzle De Pon! R!)
+- Emulation will now pause when in-game menu is showing
+- Custom application theme
+- Add screenshot preview when touching a rom icon
+
+1.6
+===
+- fix Breakers Revenge (breakrev.zip) not added to compatibility list
+- fix some wrong aspect ratio
+
+1.5
+====
+- fix a bug preventing the use if "uni-bios.rom" bios.
+- fix "menu" button blinking when using hardware controller.
+- improve controls code again, this also improve famerate.
+- prevent launching of incompatible roms (based on roms names).
+
+1.4
+====
+- Finally, a major problem is fixed in the new rendering code, which should prevent a crash on a large number of devices, but also improve speed. Thanks for all the reports!
+
+1.3
+====
+- Add the possibility to enable/disable arm asm specific cores (now disabled by default for better compatibility)
+- Transparency now also applied to analog stick
+- On screen controller can be analog or digital (preferences screen)
+- Vibrations can now be disabled (preferences screen)
+- Add the possibility to assign the BACK hardware button (should fix xperia play problem)
+- Roms compatibility list and screenshots almost done
+- Add more information to crash report
+
+1.2
+====
+- added bug report by mail, please use the "mail" icon to report crash (restart the application if needed)
+- begin to add compatibility list to browsed roms (default color = working, yellow = problem, red = non working)
+- begin to add screenshot previews icons
+
+1.1
+====
+- new and improved on screen controls
+- new effects engine (press back in game to bring the menu)
+- added 3 new scale mode : original, fit screen, full screen (press back in game to bring the menu)
+- improved speed up to 100% on large screen when using the new effect engine (from 30 to 60 fps on galaxy note)
+- added hardware buttons mapping in preferences, should work with xperia play and more (need testing and reports)

@@ -1,0 +1,167 @@
+com.littlegreatapps.neodroid.BuildConfig
+com.littlegreatapps.neodroid.Compatibility:
+    public static final int WORKING
+    public static final int PARTIAL
+    public static final int NOT_WORKING
+com.littlegreatapps.neodroid.Prefs:
+    26:26:public android.content.SharedPreferences getSharedPreferences()
+    41:43:public void useAsm(boolean)
+    78:78:public boolean getVsync()
+com.littlegreatapps.neodroid.R
+com.littlegreatapps.neodroid.R$array
+com.littlegreatapps.neodroid.R$attr
+com.littlegreatapps.neodroid.R$color
+com.littlegreatapps.neodroid.R$drawable
+com.littlegreatapps.neodroid.R$id
+com.littlegreatapps.neodroid.R$layout
+com.littlegreatapps.neodroid.R$raw
+com.littlegreatapps.neodroid.R$string
+com.littlegreatapps.neodroid.R$styleable
+com.littlegreatapps.neodroid.R$xml
+com.littlegreatapps.neodroid.UtilityLibrary:
+    public static final java.lang.String LIBRARY_PACKAGE
+    64:64:public boolean isLibsAvailable()
+fr.mydedibox.emufrontend.ActivityPreferences:
+    public static final java.lang.String KEY_USEHARDWAREBUTTON
+    public static final java.lang.String KEY_MAP_BUTTONS
+    public static final java.lang.String KEY_DOWNLOAD_PREVIEWS
+    public static final java.lang.String KEY_CUSTOMIZE_OSD2
+    public static final java.lang.String KEY_CUSTOMIZE_OSD3
+    public static final java.lang.String KEY_CUSTOMIZE_OSD4
+    public static final java.lang.String KEY_CUSTOMIZE_OSD6
+fr.mydedibox.emufrontend.CompatibilityList:
+    public static final int WORKING
+    public static final int PARTIAL
+    public static final int NOT_WORKING
+    54:63:public CompatibilityList(java.lang.String,java.lang.String,int,java.lang.String,int)
+    65:75:public CompatibilityList(java.lang.String,java.lang.String,java.lang.String,int,java.lang.String,int)
+    77:85:public CompatibilityList(java.lang.String,java.lang.String,int,java.lang.String,int,java.lang.String)
+fr.mydedibox.emufrontend.Licence
+fr.mydedibox.emufrontend.Licence$1
+fr.mydedibox.emufrontend.R:
+    9:9:public R()
+fr.mydedibox.emufrontend.R$array
+fr.mydedibox.emufrontend.R$attr
+fr.mydedibox.emufrontend.R$color
+fr.mydedibox.emufrontend.R$drawable:
+    public static final int stick_none
+    public static final int button_3_press
+    public static final int button_start
+    public static final int dpad_left
+    public static final int button_coins_press
+    public static final int button_1_press
+    public static final int stick_outer
+    public static final int stick_left
+    public static final int dpad_up
+    public static final int stick_inner
+    public static final int stick_down_left
+    public static final int dpad_down
+    public static final int stick_up
+    public static final int button_3
+    public static final int dpad_none
+    public static final int button_4
+    public static final int button_1
+    public static final int button_2
+    public static final int stick_up_right
+    public static final int button_5
+    public static final int stick_down
+    public static final int button_6
+    public static final int custom_bg_4
+    public static final int custom_bg_1
+    public static final int custom_bg_3
+    public static final int stick_up_left
+    public static final int quit
+    public static final int dpad_down_left
+    public static final int button_coins
+    public static final int dpad_up_left
+    public static final int mail
+    public static final int button_custom1
+    public static final int button_4_press
+    public static final int dpad_right
+    public static final int button_5_press
+    public static final int dpad_up_right
+    public static final int button_start_press
+    public static final int button_6_press
+    public static final int dpad_down_right
+    public static final int stick_down_right
+    public static final int stick_right
+    public static final int button_2_press
+    70:70:public R$drawable()
+fr.mydedibox.emufrontend.R$id:
+    public static final int TextView01
+    public static final int ScrollView01
+    public static final int settings
+    public static final int Button01
+    public static final int quit
+    public static final int search
+    public static final int mainview
+    public static final int clone
+    public static final int mail
+    public static final int TopLayout
+    public static final int ListLayout
+    public static final int gamepadLayout
+    14:14:public R$id()
+fr.mydedibox.emufrontend.R$layout:
+    public static final int notice
+    54:54:public R$layout()
+fr.mydedibox.emufrontend.R$raw
+fr.mydedibox.emufrontend.R$string
+fr.mydedibox.emufrontend.R$styleable
+fr.mydedibox.emufrontend.R$xml:
+    136:136:public R$xml()
+fr.mydedibox.emufrontend.SDLActivity:
+    432:432:public void setAnalogData(int,float,float)
+fr.mydedibox.emufrontend.effects.EffectList:
+    public static final int EFFECT_FULLSCREEN
+    public static final int EFFECT_FITSCREEN
+    public static final int EFFECT_ORIGINALSCREEN
+    public static final java.lang.String effect_none_name
+    public static final java.lang.String effect_scanlines100_name
+    public static final java.lang.String effect_scanlines75_name
+    public static final java.lang.String effect_scanlines50_name
+    public static final java.lang.String effect_scanlines25_name
+    public static final java.lang.String effect_crt1_25_name
+    public static final java.lang.String effect_crt1_10_name
+    public static final java.lang.String effect_crt2_25_name
+    public static final java.lang.String effect_crt2_10_name
+    public static final java.lang.String effect_twisty_name
+    69:69:public java.util.ArrayList getList()
+fr.mydedibox.emufrontend.input.IButtons
+fr.mydedibox.emufrontend.input.SoftwareButtonList:
+    98:100:public void setVisibility(int)
+fr.mydedibox.emufrontend.input.SoftwareInputView:
+    private static final int INVALID_POINTER_ID
+fr.mydedibox.emufrontend.input.SoftwareInputViewPreferences:
+    120:122:public void useVibration(boolean)
+fr.mydedibox.emufrontend.input.SoftwareStick:
+    103:104:public void setVisibility(int)
+fr.mydedibox.utility.SeekBarPreference:
+    private static final java.lang.String ANDROID_NS
+    private static final java.lang.String ATTR_DEFAULT_VALUE
+    private static final java.lang.String ATTR_MIN_VALUE
+    private static final java.lang.String ATTR_MAX_VALUE
+    private static final int DEFAULT_CURRENT_VALUE
+    private static final int DEFAULT_MIN_VALUE
+    private static final int DEFAULT_MAX_VALUE
+fr.mydedibox.utility.Utility:
+    21:21:public Utility()
+    168:173:public static java.lang.String formatSecondes(int)
+    191:197:public static long parseLong(java.lang.String)
+    202:208:public static boolean parseBoolean(java.lang.String)
+fr.mydedibox.utility.UtilityFrontendPreferences:
+    public static final int CONTROL_DIGITAL
+    public static final int CONTROL_ANALOG_FAST
+    71:71:public boolean licenceRead()
+    76:78:public void setLicenceRead(boolean)
+    117:119:public void setDataPath(java.lang.String)
+    183:185:public void useHardwareButtons(boolean)
+    188:188:public int getPad(java.lang.String)
+fr.mydedibox.utility.UtilityLibs:
+    5:5:public UtilityLibs()
+fr.mydedibox.utility.UtilityMessage:
+    38:44:public void reset()
+    122:127:public void setDialogMessage(java.lang.String)
+    139:140:public void showToastMessageLong(java.lang.String)
+    191:212:public void showMessageErrorExit(java.lang.String)
+fr.mydedibox.utility.UtilityMessage$4
+fr.mydedibox.utility.UtilityMessage$4$1

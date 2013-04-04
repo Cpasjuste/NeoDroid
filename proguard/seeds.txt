@@ -1,0 +1,56 @@
+com.littlegreatapps.neodroid.ActivityMain
+com.littlegreatapps.neodroid.ActivityMain: ActivityMain()
+fr.mydedibox.emufrontend.ActivityPreferences
+fr.mydedibox.emufrontend.ActivityPreferences: ActivityPreferences()
+fr.mydedibox.emufrontend.ActivitySoftwareInputViewEdit
+fr.mydedibox.emufrontend.ActivitySoftwareInputViewEdit: ActivitySoftwareInputViewEdit()
+fr.mydedibox.emufrontend.EmuFrontendActivity
+fr.mydedibox.emufrontend.EmuFrontendActivity: EmuFrontendActivity()
+fr.mydedibox.emufrontend.EmuFrontendActivity: void onButtonClone(android.view.View)
+fr.mydedibox.emufrontend.EmuFrontendActivity: void onPreviewClick(android.view.View)
+fr.mydedibox.emufrontend.EmuFrontendActivity: void onButtonSettings(android.view.View)
+fr.mydedibox.emufrontend.EmuFrontendActivity: void onButtonQuit(android.view.View)
+fr.mydedibox.emufrontend.EmuFrontendActivity: void onButtonMail(android.view.View)
+fr.mydedibox.emufrontend.EmuFrontendActivity: void onButtonSearch(android.view.View)
+fr.mydedibox.emufrontend.SDLActivity
+fr.mydedibox.emufrontend.SDLActivity: SDLActivity()
+fr.mydedibox.emufrontend.effects.Effect
+fr.mydedibox.emufrontend.effects.Effect: Effect(android.content.Context,android.util.AttributeSet)
+fr.mydedibox.emufrontend.effects.Effect: Effect(android.content.Context,android.util.AttributeSet,int)
+fr.mydedibox.utility.SeekBarPreference
+fr.mydedibox.utility.SeekBarPreference: SeekBarPreference(android.content.Context,android.util.AttributeSet)
+fr.mydedibox.utility.UtilitySDL
+fr.mydedibox.utility.UtilitySDL: java.lang.String datapath
+fr.mydedibox.utility.UtilitySDL: java.lang.String rompath
+fr.mydedibox.utility.UtilitySDL: java.lang.String cachepath
+fr.mydedibox.utility.UtilitySDL: UtilitySDL()
+fr.mydedibox.utility.UtilitySDL: int ispaused()
+fr.mydedibox.utility.UtilitySDL: void pauseemu()
+fr.mydedibox.utility.UtilitySDL: void resumeemu()
+fr.mydedibox.utility.UtilitySDL: int getslotnum()
+fr.mydedibox.utility.UtilitySDL: void statesave(int)
+fr.mydedibox.utility.UtilitySDL: void stateload(int)
+fr.mydedibox.utility.UtilitySDL: void emustop()
+fr.mydedibox.utility.UtilitySDL: void setPadData(int,long)
+fr.mydedibox.utility.UtilitySDL: void setPadSwitch()
+fr.mydedibox.utility.UtilitySDL: void nativeInitWithArgs(java.lang.String[])
+fr.mydedibox.utility.UtilitySDL: void onNativeResize(int,int,int)
+fr.mydedibox.utility.UtilitySDL: void nativeRunAudioThread()
+fr.mydedibox.utility.UtilitySDL: void nativePause()
+fr.mydedibox.utility.UtilitySDL: void nativeResume()
+fr.mydedibox.utility.UtilitySDL: java.lang.String getDataPath()
+fr.mydedibox.utility.UtilitySDL: java.lang.String getRomsPath()
+fr.mydedibox.utility.UtilitySDL: java.lang.String getCachePath()
+fr.mydedibox.utility.UtilitySDL: boolean createGLContext(int,int)
+fr.mydedibox.utility.UtilitySDL: void flipBuffers()
+fr.mydedibox.utility.UtilitySDL: void setActivityTitle(java.lang.String)
+fr.mydedibox.utility.UtilitySDL: android.content.Context getContext()
+fr.mydedibox.utility.UtilitySDL: java.lang.Object audioInit(int,boolean,boolean,int)
+fr.mydedibox.utility.UtilitySDL: void audioStartThread()
+fr.mydedibox.utility.UtilitySDL: void audioWriteShortBuffer(short[])
+fr.mydedibox.utility.UtilitySDL: void audioWriteByteBuffer(byte[])
+fr.mydedibox.utility.UtilitySDL: void audioQuit()
+fr.mydedibox.utility.UtilitySDL: void setErrorMessage(java.lang.String)
+fr.mydedibox.utility.UtilitySDL: void showProgressBar(java.lang.String,int)
+fr.mydedibox.utility.UtilitySDL: void hideProgressBar()
+fr.mydedibox.utility.UtilitySDL: void setProgressBar(int)
